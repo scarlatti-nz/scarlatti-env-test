@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hello-ts-docker:latest
+    command: ["npm", "start"]
+    restart: no
+    working_dir: /app
+    environment:
+      - NODE_ENV=development
+
+
