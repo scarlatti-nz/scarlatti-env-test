@@ -1,0 +1,11 @@
+{
+  "title": "Test Survey",
+  "questions": [
+    {
+      "id": "question-1",
+      "text": "What is your favorite color?",
+      "type": "text",
+      "required": true
+    }
+  ]
+}
